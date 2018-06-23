@@ -1,3 +1,25 @@
 Installation
 npm install react-native-open-calculator
 
+Installation (Android)
+
+In android/settings.gradle
+include ':react-native-calculator'
+project(':react-native-calculator').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-calculator/android')
+
+In android/app/build.gradle
+...
+dependencies{
+    ...
+    implementation project(':react-native-calculator')
+}
+
+In MainApplication.java
+import com.bahikhata.calculator.CalculatorPackage;
+
+public List<ReactPackage> createAdditionalReactPackages() {
+      return Arrays.<ReactPackage>asList(
+              ...,
+              new CalculatorPackage()
+      );
+}
