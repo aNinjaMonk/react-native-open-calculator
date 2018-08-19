@@ -1,20 +1,52 @@
 {
-  "name": "react-native-open-calculator",
-  "version": "0.0.3",
-  "description": "Opens native Calculator App from react native. ",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "_from": "react-native-open-calculator",
+  "_id": "react-native-open-calculator@0.0.4",
+  "_inBundle": false,
+  "_integrity": "sha1-RnxRXl/4S5B/hCbSDpnSD2NRSp8=",
+  "_location": "/react-native-open-calculator",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "react-native-open-calculator",
+    "name": "react-native-open-calculator",
+    "escapedName": "react-native-open-calculator",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
   },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-open-calculator/-/react-native-open-calculator-0.0.4.tgz",
+  "_shasum": "467c515e5ff84b907f8426d20e99d20f63514a9f",
+  "_spec": "react-native-open-calculator",
+  "_where": "/Users/user/project/bahiApp/newFolder",
+  "author": {
+    "name": "abhijeetgoel77@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/bahikhata/react-native-open-calculator/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Opens native Calculator App from react native. ",
+  "homepage": "https://github.com/bahikhata/react-native-open-calculator#readme",
   "keywords": [
     "calculator",
     "native",
     "app"
   ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "react-native-open-calculator",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bahikhata/react-native-open-calculator.git"
+    "url": "git+https://github.com/bahikhata/react-native-open-calculator.git"
   },
-  "author": "abhijeetgoel77@gmail.com",
-  "license": "ISC"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.0.4"
 }
